@@ -4,16 +4,16 @@
 
 ## 页面介绍
 
-[cute](src/views/Cute.vue)
+[cute](src/views/CuteView.vue)
 可爱的鸡小弟聊天室
 
-[lovely](src/views/Lovely.vue)
+[lovely](src/views/LovelyView.vue)
 友爱的聊天室
 
-[sweet](src/views/SweetGirl.vue)
+[sweet](src/views/SweetGirlView.vue)
 甜美女士的聊天室
 
-[tough](src/views/ToughGuy.vue)
+[tough](src/views/ToughGuyView.vue)
 猛男的聊天室
 
 ## 下面是代码的使用方法
