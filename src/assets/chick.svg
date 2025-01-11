@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- 草地 -->
+  <rect x="0" y="230" width="400" height="70" fill="green" />
+  
+  <!-- 公鸡的身体 -->
+  <ellipse cx="200" cy="160" rx="50" ry="70" fill="red" />
+  
+  <!-- 公鸡的头 -->
+  <circle cx="200" cy="95" r="30" fill="red" />
+  
+  <!-- 公鸡的喙 -->
+  <polygon points="200,95 215,85 200,75" fill="yellow" />
+  
+  <!-- 公鸡的眼睛 -->
+  <circle cx="190" cy="90" r="5" fill="black" />
+  
+  <!-- 公鸡的羽毛 -->
+  <path d="M170,130 Q140,140 130,160" fill="orange" />
+  <path d="M230,130 Q260,140 270,160" fill="orange" />
+  
+  <!-- 公鸡的尾巴 -->
+  <path d="M170,160 C140,170 120,190 160,210" fill="yellow" />
+  <path d="M230,160 C260,170 280,190 240,210" fill="yellow" />
+  
+  <!-- 公鸡的脚 -->
+  <line x1="180" y1="230" x2="180" y2="240" stroke="orange" stroke-width="4"/>
+  <line x1="220" y1="230" x2="220" y2="240" stroke="orange" stroke-width="4"/>
+  <line x1="180" y1="240" x2="170" y2="250" stroke="orange" stroke-width="4"/>
+  <line x1="220" y1="240" x2="230" y2="250" stroke="orange" stroke-width="4"/>
+  
+  <!-- 公鸡的翅膀 -->
+  <path d="M170,130 C150,120 140,110 170,90" fill="red" />
+  <path d="M230,130 C250,120 260,110 230,90" fill="red" />
+  
+  <!-- 公鸡的冠 -->
+  <path d="M185,75 C190,60 200,60 205,75 C200,70 190,70 185,75" fill="darkred" />
+  
+  <!-- 草丛 -->
+  <path d="M10,230 Q30,210 50,230" fill="green" />
+  <path d="M60,230 Q80,210 100,230" fill="green" />
+  <path d="M110,230 Q130,210 150,230" fill="green" />
+  <path d="M160,230 Q180,210 200,230" fill="green" />
+  <path d="M210,230 Q230,210 250,230" fill="green" />
+  <path d="M260,230 Q280,210 300,230" fill="green" />
+  
+  <!-- 食物 -->
+  <circle cx="170" cy="225" r="5" fill="brown" />
+  <circle cx="230" cy="225" r="5" fill="brown" />
+  <circle cx="200" cy="215" r="4" fill="brown" />
+</svg>
