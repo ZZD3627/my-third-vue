@@ -21,6 +21,9 @@ const props = defineProps({
 // 初始化语音状态
 const voices = ref<SpeechSynthesisVoice[]>([]);  // 存储所有可用的语音
 
+// 检查浏览器是否支持 speechSynthesis
+const isSpeechSynthesisSupported = "speechSynthesis" in window;
+
 // 获取可用的语音列表
 const loadVoices = () => {
   if ("speechSynthesis" in window) {
@@ -32,14 +35,14 @@ const loadVoices = () => {
 onMounted(() => {
   loadVoices();
 
-  if ("speechSynthesis" in window) {
+  if (isSpeechSynthesisSupported) {
     speechSynthesis.onvoiceschanged = loadVoices;
   }
 });
 
 // 播放语音的函数
 const playSpeech = () => {
-  if ("speechSynthesis" in window && props.text.trim() !== "") {
+  if (isSpeechSynthesisSupported && props.text) {
     const utterance = new SpeechSynthesisUtterance(props.text);
     utterance.rate = props.rate;
     utterance.pitch = props.pitch;

@@ -61,13 +61,6 @@ const startRecording = () => {
     });
 };
 
-// 停止录音
-const stopRecording = () => {
-  if (mediaRecorder) {
-    mediaRecorder.stop();  // 停止录音
-  }
-};
-
 // 发送音频数据到后端
 const sendAudio = () => {
   const formData = new FormData();
